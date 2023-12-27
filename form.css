@@ -1,0 +1,21 @@
+body
+{
+    font-family: 'Nunito', sans-serif;
+}
+#fn-cont
+{
+    position: relative;
+}
+.fa-user
+{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+/* Note-div---> Static , form---->Static , body--->Static , html---->Relative.
+     It wil concider html for absolute position. */
+#fname
+{
+    height: 0%;
+    padding-left: 10px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css">
+    <script src="https://kit.fontawesome.com/55b01a9280.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="">
+        <div id="fn-cont">
+            <i class="fa-solid fa-user"></i>
+        <label for="fn">First Name</label>
+        <input id="fn" type="text"><br>
+    </div>
+        <label for="ln">Last Name</label>
+        <input id="ln" type="text"><br>
+        <label for="emid">E-Mail Id</label>
+        <input id="emid" type="email"><br>
+        <label for="conn">Contact No.</label>
+        <input id="conn" type="number"><br>
+        <label for="dob">DOB</label>
+        <input id="dob" type="date"><br>
+        <label for="">Gender</label>
+        <input id="male" type="radio" name="gender">
+        <label for="male">Male</label>
+        <input id="female" type="radio" name="gender">
+        <label for="female">Female</label><br>
+        <label for="rs">Relationship Status</label>
+        <select id="rs">
+            <option value="" hidden>Select</option>
+            <option value="">Single</option>
+            <option value="">Married</option>
+        </select><br>
+        <label for="lng">Language</label>
+        <select id="lng">
+            <option value="" hidden>Select</option>
+            <option value="">English</option>
+            <option value="">Hindi</option>
+            <option value="">Marathi</option>
+            <option value="">Gujrati</option>
+            <option value="">Tamil</option>
+            <option value="">Telugu</option>
+            <option value="">Kannada</option>
+            <option value="">Malyalam</option>
+            <option value="">Punjabi</option>
+            <option value="">Begali</option>
+            <option value="">Assamiya</option>
+            <option value="">Odisi</option>
+            <option value="">Konkani</option>
+        </select><br>
+        <label for="ph">Upload Profile Photo</label>
+        <input id="ph" type="file"><br>
+        <label for="cnp">Create New Password</label>
+        <input id="cnp" type="password"><br>
+        <label for="cp">Confirm Password</label>
+        <input id="cp" type="password"><br>
+        <input id="18+" type="checkbox">
+        <label for="18+">I'm 18+</label><br>
+        <input id="t&c" type="checkbox">
+        <label for="t&c">I'm accepting T&C</label><br>
+        <label for="feedb">Feedback</label>
+        <textarea id="feedb" cols="30" rows="1"></textarea><br>
+        <!-- <input type="range">
+        <input type="color">
+        <input type="search">
+        <input type="submit">
+        <input type="reset"> -->
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
